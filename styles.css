@@ -31,14 +31,14 @@ header
 {
 	width: 33%;
 	background-color: #d32f2f;
-	margin: 0px;
+	
+
 }
 
 #Ma_Photo
 {
-	padding-left: 32%;
-	padding-top: 10%;
-	padding-bottom: 5%;
+	justify-content: center;
+	border :solid;
 }
 
 .titre_gauche
@@ -58,3 +58,22 @@ header
 	border-top: 1px #d32f2f solid;
 }
 
+#loisirs
+{
+	display: flex;
+	
+	
+}
+
+#loisirs img 
+{
+	width: 10%;
+	padding-left: 13%;
+	padding-top: 5%;
+	margin-left: 3%;
+}
+
+aside p 
+{
+	margin-left: 15%;
+}
