@@ -1,11 +1,15 @@
 body
 {
 	margin: 0px;
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 header
 {
-	padding-bottom: 15%;
+	margin-bottom: 15%;
+	border-bottom: 1px solid #d32f2f;
+
 }
 
 .nom
@@ -13,24 +17,133 @@ header
 	color: #d32f2f;
 }
 
-#contenu
-{
-	display: flex;
-	flex-direction: row-reverse;
-}
+
 
 #Partie_Principale
 {
 	width: 66%;
-	padding-left: 10%;
+	padding-left: 4%;
 	padding-top: 4%;
+	margin-left: 0px;
 	
 }
+
+
+
+#Section_1
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: red;
+
+	
+}
+
+#Section_2
+{	
+	display: flex;
+	flex-direction: column;
+	
+	background-color: red;
+	margin-top: 60px;
+}
+
+#Formation_1
+{
+	display: flex;
+	flex-direction: row;
+	background-color: yellow;
+	margin-bottom: 10px;
+	justify-content: space-between;
+	
+
+}
+
+.element_1
+{
+	padding-top: 6px;
+	margin-right: 10px;
+	border : solid;
+	width: 33%;
+	
+}
+
+.element_2
+{
+	margin-left: 60px;
+	border : solid;
+	width: 66%;
+}
+
+#Formation_2
+{
+	display: flex;
+	background-color: yellow;
+	justify-content: space-between;
+
+}
+
+#travail_1
+{
+	display: flex;
+	background-color: yellow;
+	margin-bottom: 10px;
+	justify-content: space-between;
+}
+
+#travail_2
+{
+	display: flex;
+	background-color: yellow;
+	justify-content: space-between;
+}
+
+footer
+{
+	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+}
+
+#Section_1 h2
+{
+	display: flex;
+	flex: 1;
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+footer
+{
+	display: flex;
+	flex-direction: column;
+	background-color: red;
+}
+
+
+
+
+
+
+
+
 
 #Partie_Secondaire
 {
 	width: 33%;
 	background-color: #d32f2f;
+
 	
 
 }
@@ -38,7 +151,10 @@ header
 #Ma_Photo
 {
 	justify-content: center;
-	border :solid;
+	display: flex;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	
 }
 
 .titre_gauche
@@ -50,13 +166,7 @@ header
 	padding: 10px;
 }
 
-#reco
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	border-top: 1px #d32f2f solid;
-}
+
 
 #loisirs
 {
@@ -77,3 +187,4 @@ aside p
 {
 	margin-left: 15%;
 }
+
