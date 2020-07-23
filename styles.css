@@ -54,7 +54,7 @@ header
 	display: flex;
 	flex-direction: row;
 	background-color: yellow;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	justify-content: space-between;
 	
 
@@ -88,7 +88,7 @@ header
 {
 	display: flex;
 	background-color: yellow;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	justify-content: space-between;
 }
 
@@ -99,37 +99,36 @@ header
 	justify-content: space-between;
 }
 
-footer
-{
-	margin-top: 60px;
-	display: flex;
-	flex-direction: row;
-}
+
+
 
 #Section_1 h2
 {
 	display: flex;
 	flex: 1;
 	
-	
-	
-	
 }
-
-
-
-
-
-
 
 
 
 footer
 {
-	display: flex;
-	flex-direction: column;
 	background-color: red;
+	padding-left: 0px;
+	margin-top: 60px;
 }
+
+
+#reco
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: yellow;
+
+}
+
+
+
 
 
 
