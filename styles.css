@@ -18,6 +18,13 @@ header
 }
 
 
+#dev
+{
+	border-bottom: 2px solid  #d32f2f;
+	padding-bottom: 10px;
+}
+
+
 
 #Partie_Principale
 {
@@ -29,11 +36,17 @@ header
 	
 }
 
-#Partie_Principale h2
+.soulign
 {
-	border-bottom: 1px solid #d32f2f;
+	border-bottom: 2px solid #d32f2f;
 	padding-bottom: 10px;
 	font-size: 1.8em;
+}
+
+i
+{
+	color: #d32f2f;
+	margin-right: 15px;
 }
 
 h2
