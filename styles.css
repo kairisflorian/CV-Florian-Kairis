@@ -18,6 +18,7 @@ header
 }
 
 
+
 #dev
 {
 	border-bottom: 2px solid  #d32f2f;
@@ -115,6 +116,8 @@ p
 	
 }
 
+
+
 .element_2
 {
 	margin-left: 60px;
@@ -201,7 +204,7 @@ footer
 	justify-content: center;
 	display: flex;
 	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-top: 12px;
 	
 }
 
