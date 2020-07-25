@@ -27,6 +27,8 @@ header
 
 
 
+
+
 #Partie_Principale
 {
 	width: 66%;
@@ -217,26 +219,42 @@ footer
 	padding: 10px;
 }
 
+#icones_gauche
+{
+	margin-top: 30px;
+	padding-bottom: 50px;
+	text-align: center;
+	padding-top: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
 
+}
 
 #loisirs
 {
 	display: flex;
-	
-	
+	flex-direction: column;
+	height: 500px;
+
 }
 
-#loisirs img 
-{
-	width: 10%;
-	padding-left: 13%;
-	padding-top: 5%;
-	margin-left: 3%;
-}
+
+
+
 
 aside p 
 {
 	margin-left: 15%;
-	word-wrap: break-word
+	word-wrap: break-word;
+	margin-right : 15%;
 }
 
+aside i
+{
+	color: #424242;
+	font-size: 3em;
+	border: 3px solid #424242 ;
+	padding: 14px;
+	border-radius: 50%;
+}
