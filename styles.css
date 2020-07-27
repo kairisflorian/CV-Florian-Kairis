@@ -8,16 +8,12 @@ body
 header
 {
 	margin-bottom: 15%;
-	
-
 }
-
+	
 .nom
 {
 	color: #d32f2f;
 }
-
-
 
 #dev
 {
@@ -25,25 +21,24 @@ header
 	padding-bottom: 10px;
 }
 
-
-
-
-
 #Partie_Principale
 {
 	width: 66%;
 	padding-left: 4%;
 	padding-top: 4%;
 	margin-left: 0px;
-
-	
 }
-
+	
 .soulign
 {
 	border-bottom: 2px solid #d32f2f;
 	padding-bottom: 10px;
 	font-size: 1.8em;
+}
+
+h1
+{
+	font-size: 3em;
 }
 
 i
@@ -83,10 +78,7 @@ p
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	
-
-	
-}
+}	
 
 #expérience
 {	
@@ -104,9 +96,7 @@ p
 	
 	margin-bottom: 20px;
 	justify-content: space-between;
-	
-
-}
+}	
 
 .element_1
 {
@@ -115,10 +105,7 @@ p
 	
 	width: 33%;
 	word-wrap: break-word;
-	
-}
-
-
+}	
 
 .element_2
 {
@@ -133,7 +120,6 @@ p
 	display: flex;
 	
 	justify-content: space-between;
-
 }
 
 #travail_1
@@ -151,54 +137,29 @@ p
 	justify-content: space-between;
 }
 
-
-
-
-
-
-
-
-footer
+aside
 {
 	
 	padding-left: 0px;
 	margin-top: 60px;
 }
 
-
 #reco
 {
 	display: flex;
 	justify-content: space-between;
-	
-
 }
-
-
-
+		
 #Partie_Principale img
 {
 	width: 5%;
 	height: 5%;
-
 }
-
-
-
-
-
-
-
-
-
 
 #Partie_Secondaire
 {
 	width: 33%;
 	background-color: #d32f2f;
-
-	
-
 }
 
 #Ma_Photo
@@ -207,8 +168,7 @@ footer
 	display: flex;
 	padding-bottom: 20px;
 	padding-top: 12px;
-	
-}
+}	
 
 .titre_gauche
 {
@@ -227,21 +187,14 @@ footer
 	padding-top: 30px;
 	margin-left: 5px;
 	margin-right: 5px;
-	
-
-}
+}	
 
 #loisirs
 {
 	display: flex;
 	flex-direction: column;
 	height: 500px;
-
 }
-
-
-
-
 
 aside p 
 {
@@ -258,3 +211,58 @@ aside i
 	padding: 14px;
 	border-radius: 50%;
 }
+
+.decal
+{
+	margin-left: 13%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
