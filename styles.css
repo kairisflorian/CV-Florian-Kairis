@@ -198,8 +198,7 @@ aside img
 {
 	display: flex;
 	flex-direction: column;
-	height: 300px;
-	margin-top: 480px
+	margin-top: 480px;
 }
 	
 aside p 
@@ -223,8 +222,68 @@ aside i
 	margin-left: 13%;
 }	
 
-@media all and (max-width: 1024px)
-{	
+@media screen and (max-width: 768px)
+{
+	body
+	{
+		flex-direction: column;
+	}
+
+	#Partie_Principale
+	{
+		width: auto;
+	}
+
+	header
+	{
+		text-align: right;
+		margin-right: 5%;
+	}
+
+	#Partie_Secondaire
+	{
+		width: 100%;
+		margin-top: 20px;
+	}
+		
+
+	#Partie_Secondaire img
+	{
+		display: none;
+	}	
+
+	aside
+	{
+		display: flex;
+		
+		
+	}
+
+	#contact
+	{
+		border: 1px black solid;
+		height: 500px;
+	}
+
+	#apropos
+	{
+		border: 1px black solid;
+		margin-top: 0px;
+		height: 500px;
+	}
+
+	#loisirs
+	{
+		margin-top: 1px;
+	}	
+
+}	
+	
+
+	
+	
+	
+
 
 
 
