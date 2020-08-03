@@ -7,7 +7,7 @@ body
 
 header
 {
-	margin-bottom: 15%;
+	margin-bottom: 18%;
 }
 	
 .nom
@@ -79,71 +79,62 @@ p
 	flex-direction: column;
 	justify-content: center;
 }	
-
+	
 #expérience
 {	
 	display: flex;
 	flex-direction: column;
-	
-	
-	margin-top: 60px;
+	margin-top: 40px;
 }
-
+	
 #formation_1
 {
 	display: flex;
 	flex-direction: row;
-	
 	margin-bottom: 20px;
 	justify-content: space-between;
 }	
-
+	
 .element_1
 {
 	padding-top: 6px;
 	margin-right: 10px;
-	
 	width: 33%;
 	word-wrap: break-word;
 }	
-
+	
 .element_2
 {
 	margin-left: 60px;
-	
 	width: 66%;
 	word-wrap: break-word;
 }
-
+	
 #formation_2
 {
 	display: flex;
-	
 	justify-content: space-between;
 }
-
+	
 #travail_1
 {
 	display: flex;
-	
 	margin-bottom: 20px;
 	justify-content: space-between;
 }
-
+	
 #travail_2
 {
 	display: flex;
-	
 	justify-content: space-between;
 }
-
+	
 aside
 {
-	
 	padding-left: 0px;
-	margin-top: 60px;
+	margin-top: 0px;
 }
-
+	
 #reco
 {
 	display: flex;
@@ -160,14 +151,28 @@ aside
 {
 	width: 33%;
 	background-color: #d32f2f;
-}
+}	
 
 #Ma_Photo
 {
 	justify-content: center;
 	display: flex;
-	padding-bottom: 20px;
-	padding-top: 12px;
+	height: 350px;
+}		
+	
+aside img
+{
+	width: 190px;
+}	
+	
+#apropos
+{
+	margin-top: 70px;
+}
+	
+#contact
+{
+	padding-bottom: 80px;
 }	
 
 .titre_gauche
@@ -193,9 +198,10 @@ aside
 {
 	display: flex;
 	flex-direction: column;
-	height: 500px;
+	height: 300px;
+	margin-top: 480px
 }
-
+	
 aside p 
 {
 	margin-left: 15%;
@@ -208,14 +214,36 @@ aside i
 	color: #424242;
 	font-size: 3em;
 	border: 3px solid #424242 ;
-	padding: 14px;
 	border-radius: 50%;
+	padding : 16px;
 }
 
 .decal
 {
 	margin-left: 13%;
-}
+}	
+
+@media all and (max-width: 1024px)
+{	
+
+
+
+
+
+
+
+
+	
+
+
+	
+	
+	
+
+
+
+
+	
 
 
 
