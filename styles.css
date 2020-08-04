@@ -222,7 +222,7 @@ aside i
 	margin-left: 13%;
 }	
 
-@media screen and (max-width: 768px)
+@media all and (max-device-width: 768px)
 {
 	body
 	{
@@ -255,19 +255,15 @@ aside i
 	aside
 	{
 		display: flex;
-		
-		
 	}
 
 	#contact
 	{
-		border: 1px black solid;
 		height: 500px;
 	}
 
 	#apropos
 	{
-		border: 1px black solid;
 		margin-top: 0px;
 		height: 500px;
 	}
@@ -276,8 +272,26 @@ aside i
 	{
 		margin-top: 1px;
 	}	
+}
 
-}	
+@media all and (max-width: 	1024px)
+{
+	#formation
+	{
+		padding-top: 7%;
+	}
+
+	header
+	{
+		margin-top: 15px;
+	}
+
+	aside i
+	{
+		font-size: 2em;
+	}
+}
+
 	
 
 	
