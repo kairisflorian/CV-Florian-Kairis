@@ -50,7 +50,7 @@ i
 h2
 {
 	font-size: 1.8em;
-	font-family: Trebuchet MS;
+	font-family: "Trebuchet MS";
 }
 
 h3
@@ -70,7 +70,7 @@ h4
 p
 {
 	font-size: 1.2em;
-	font-family: Comic Sans MS;
+	font-family: "Comic Sans MS";
 }
 
 #formation
@@ -159,6 +159,11 @@ aside
 	display: flex;
 	height: 350px;
 }		
+
+#Ma_Photo h2
+{
+	display: none;
+}
 	
 aside img
 {
