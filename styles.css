@@ -237,7 +237,8 @@ aside i
 	margin-left: 13%;
 }	
 
-@media all and (max-width: 425px)
+/* version mobile */
+@media all and (max-width: 767px)
 {
 	body
 	{
@@ -306,7 +307,44 @@ aside i
 	}
 }
 
-		
+/* version tablette */
+@media all and (min-width: 768px) and (max-width: 1023px)
+{
+	#Ma_Photo
+	{
+		height: 260px;
+	}
+
+	#Ma_Photo img
+	{
+		height: 250px;
+		width: auto;
+	}
+
+	#loisirs
+	{
+		height: 310px;
+		margin-top: 530px;
+	}
+
+	#loisirs i
+	{
+		font-size: 1em;
+		margin-top: 0px;
+	}
+
+	h2.titre_gauche
+	{
+		margin-top: 40px;
+	}
+
+	p#icones_gauche
+	{
+		padding-top: 10px;
+	}
+
+
+}		
 
 
 
