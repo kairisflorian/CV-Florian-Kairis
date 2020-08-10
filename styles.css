@@ -164,7 +164,12 @@ aside
 {
 	display: none;
 }
-	
+
+#mini
+{
+	display: none;
+}	
+
 aside img
 {
 	width: 190px;
@@ -242,19 +247,39 @@ aside i
 
 	#Partie_Principale
 	{
-		width: auto;
+		width: 100%;
 		margin: none;
+		padding: 0px;
 	}
 
 	#Partie_Secondaire
 	{
-		width: auto;
+		width: 100%;
 		margin-top: 30px;
+	}
+
+	#Partie_Principale h2
+	{
+		font-size: 22px;
 	}
 
 	#Ma_Photo
 	{
 		display: none;
+	}
+
+	#mini
+	{
+		height: 170px;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+	}
+
+	#mini img
+	{
+		width: 110px;
+		height: auto;
 	}
 
 	aside i
@@ -266,13 +291,27 @@ aside i
 	{
 		margin-left: 5px;
 		width: auto;
-		border: 1px solid black;
-		width: 320px;
-		word-wrap: normal;
+		max-width: 188px;
+		word-wrap: break-word;
 	}
 
-	
+	header h2
+	{
+		font-size: 21px;
+	}
+
+	.decal
+	{
+		margin-left: 0px;
+	}
 }
+
+		
+
+
+
+
+
 	
 
 	
