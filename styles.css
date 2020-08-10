@@ -238,7 +238,7 @@ aside i
 }	
 
 /* version mobile */
-@media all and (max-width: 767px)
+@media all and (max-width: 600px)
 {
 	body
 	{
@@ -308,7 +308,7 @@ aside i
 }
 
 /* version tablette */
-@media all and (min-width: 768px) and (max-width: 1023px)
+@media all and (min-width: 601px) and (max-width: 1023px)
 {
 	#Ma_Photo
 	{
@@ -358,7 +358,75 @@ aside i
 	}
 }
 
+/* version ecran 4k */
+@media all and (min-width: 2000px)
+{
+	p
+	{
+		font-size: 2em;
+	}
 
+	h1
+	{
+		font-size: 6em;
+	}
+
+	h2
+	{
+		font-size: 4em;
+	}
+
+	#Ma_Photo
+	{
+		height: 600px;
+	}
+
+	aside img
+	{
+		height: 590px;
+		width: auto;
+	}
+
+	.soulign
+	{
+		font-size: 50px;
+	}
+
+	ul
+	{
+		font-size: 2em;
+	}
+
+	h3
+	{
+		font-size: 3em;
+	}
+
+	h4
+	{
+		font-size: 2.5em;
+	}
+
+	header
+	{
+		margin-bottom: 200px;
+	}
+
+	#apropos
+	{
+		margin-top: 220px;
+	}
+
+	p#icones_gauche
+	{
+		margin-top: 100px;
+	}
+
+	#loisirs
+	{
+		margin-top: 520px;
+	}
+}
 
 
 
