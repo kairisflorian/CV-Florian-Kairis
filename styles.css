@@ -5,22 +5,6 @@ body
 	flex-direction: row-reverse;
 }
 
-header
-{
-	margin-bottom: 18%;
-}
-	
-.nom
-{
-	color: #d32f2f;
-}
-
-#dev
-{
-	border-bottom: 2px solid  #d32f2f;
-	padding-bottom: 10px;
-}
-
 #Partie_Principale
 {
 	width: 66%;
@@ -71,6 +55,22 @@ p
 {
 	font-size: 1.2em;
 	font-family: "Comic Sans MS";
+}
+
+header
+{
+	margin-bottom: 18%;
+}
+	
+.nom
+{
+	color: #d32f2f;
+}
+
+#dev
+{
+	border-bottom: 2px solid  #d32f2f;
+	padding-bottom: 10px;
 }
 
 #formation
@@ -232,75 +232,53 @@ aside i
 	margin-left: 13%;
 }	
 
-@media all and (max-width: 768px)
+@media all and (max-width: 425px)
 {
 	body
 	{
+		display: flex;
 		flex-direction: column;
 	}
 
 	#Partie_Principale
 	{
 		width: auto;
-	}
-
-	header
-	{
-		text-align: right;
-		margin-right: 5%;
+		margin: none;
 	}
 
 	#Partie_Secondaire
 	{
-		width: 100%;
-		margin-top: 20px;
+		width: auto;
+		margin-top: 30px;
 	}
-		
 
-	#Partie_Secondaire img
+	#Ma_Photo
 	{
 		display: none;
-	}	
-
-	aside
-	{
-		display: flex;
-	}
-
-	#contact
-	{
-		height: 500px;
-	}
-
-	#apropos
-	{
-		margin-top: 0px;
-		height: 500px;
-	}
-
-	#loisirs
-	{
-		margin-top: 1px;
-	}	
-}
-
-@media all and (max-width: 	1024px)
-{
-	#formation
-	{
-		padding-top: 7%;
-	}
-
-	header
-	{
-		margin-top: 15px;
 	}
 
 	aside i
 	{
 		font-size: 2em;
 	}
+
+	.element_2
+	{
+		margin-left: 5px;
+		width: auto;
+		border: 1px solid black;
+		width: 320px;
+		word-wrap: normal;
+	}
+
+	
 }
+	
+
+	
+
+
+
 
 	
 
