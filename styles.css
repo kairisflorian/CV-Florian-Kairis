@@ -342,9 +342,21 @@ aside i
 	{
 		padding-top: 10px;
 	}
-
-
 }		
+
+/* version laptop */
+@media all and (min-width: 1024px) and (max-width: 1439px)
+{
+	#Ma_Photo
+	{
+		height: 300px;
+	}
+
+	#loisirs i
+	{
+		font-size: 2em;
+	}
+}
 
 
 
