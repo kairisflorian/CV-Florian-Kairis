@@ -249,7 +249,7 @@ aside i
 	#Partie_Principale
 	{
 		width: 100%;
-		margin: none;
+		margin: 0px;
 		padding: 0px;
 	}
 
@@ -428,7 +428,13 @@ aside i
 	}
 }
 
-
+@media all and (min-width: 1366px) and (max-width: 1366px)
+{
+	#Ma_Photo
+	{
+		height: 350px;
+	}
+}
 
 	
 
