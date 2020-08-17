@@ -292,10 +292,13 @@ aside i
 	{
 		margin-left: 5px;
 		width: auto;
-		max-width: 188px;
-		word-wrap: break-word;
-	}
+	}	
 
+	.element_2__reco
+	{
+		margin-left: 5px;
+	}
+		
 	header h2
 	{
 		font-size: 21px;
@@ -304,6 +307,57 @@ aside i
 	.decal
 	{
 		margin-left: 0px;
+	}
+
+	#formation_1
+	{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	align-items: center;
+	}	
+
+	.element_1
+	{
+	padding-top: 6px;
+	width: 100%;
+	margin-left: 10px;
+	}	
+
+	#formation_2
+	{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	align-items: center;
+	}
+
+	.decal
+	{
+		display: none;
+	}
+
+	#travail_1
+	{
+	display: flex;
+	margin-bottom: 20px;
+	flex-direction: column;
+	align-items: center;
+	}
+	
+	#travail_2
+	{
+	display: flex;
+	margin-bottom: 20px;
+	flex-direction: column;
+	align-items: center;
+	}
+
+	#reco
+	{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	}
 }
 
@@ -425,6 +479,21 @@ aside i
 	#loisirs
 	{
 		margin-top: 520px;
+	}
+
+	#reco
+	{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	border: 1px solid black;
+	}
+
+	.element_2__reco
+	{
+		width: auto;
+		margin-right: 10px;
+		margin-left: 0px;
 	}
 }
 
