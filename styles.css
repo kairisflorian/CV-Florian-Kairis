@@ -483,10 +483,9 @@ aside i
 
 	#reco
 	{
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	border: 1px solid black;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
 	}
 
 	.element_2__reco
